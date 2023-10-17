@@ -1,0 +1,37 @@
+const actions = {
+  FETCH_COURT_TRANSFER_REQUEST: "FETCH_COURT_TRANSFER_REQUEST",
+  FETCH_COURT_TRANSFER_SUCCESS: "FETCH_COURT_TRANSFER_SUCCESS",
+  FETCH_COURT_TRANSFER_ERROR: "FETCH_COURT_TRANSFER_ERROR",
+
+  ADD_COURT_TRANSFER_REQUEST: "ADD_COURT_TRANSFER_REQUEST",
+  ADD_COURT_TRANSFER_SUCCESS: "ADD_COURT_TRANSFER_SUCCESS",
+  ADD_COURT_TRANSFER_ERROR: "ADD_COURT_TRANSFER_ERROR",
+
+  UPDATE_COURT_TRANSFER_REQUEST: "UPDATE_COURT_TRANSFER_REQUEST",
+  UPDATE_COURT_TRANSFER_SUCCESS: "UPDATE_COURT_TRANSFER_SUCCESS",
+  UPDATE_COURT_TRANSFER_ERROR: "UPDATE_COURT_TRANSFER_ERROR",
+
+  RESET_ACTIONTYPE: "RESET_ACTIONTYPE",
+
+  addCourtTransfer: (url, body) => ({
+    type: actions.ADD_COURT_TRANSFER_REQUEST,
+    payload: { url, body },
+  }),
+
+  updateCourtTransfer: (url, body) => ({
+    type: actions.UPDATE_COURT_TRANSFER_REQUEST,
+    payload: { url, body },
+  }),
+
+  getCourtTransferList: (url) => ({
+    type: actions.FETCH_COURT_TRANSFER_REQUEST,
+    payload: { url },
+  }),
+
+  resetActionType: () => {
+    return {
+      type: actions.RESET_ACTIONTYPE,
+    };
+  },
+};
+export default actions;

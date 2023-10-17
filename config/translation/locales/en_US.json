@@ -1,0 +1,18 @@
+{
+  "common.settings": "Settings",
+  "common.dashboard": "Dashboard",
+  "common.casesList": "Cases List",
+  "common.myPerformance": "My Performance",
+  "common.reports": "Reports",
+  "common.caseTransFer": "Case Transfer",
+  "common.notificationsFromSuperiorOfficers": "Notifications From Superior Officers",
+  "common.accidentInformationReport": "Accident Information Report",
+  "common.dailySituationReport": "Daily Situation Report",
+  "common.FSLStatusReport": "FSL Status Report",
+  "page.signInForgotPass": "Forgot password?",
+  "page.signInRememberMe": "Remember me",
+  "page.signInButton": "Login",
+  "sidebar.logout": "Logout",
+  "page.presentAddress": "Use same as Present Address",
+  "page.submit": "Submit"
+}

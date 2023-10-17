@@ -1,0 +1,25 @@
+{
+  "respCode": 200,
+  "respMessage": "Successfully logged in.",
+  "accessToken": "8a37f601-a061-57ea-8d58-1a093d22110b",
+  "refreshToken": "a6bcc6a9-d2cc-5951-9648-52336c4ae5b6",
+  "details": {
+    "previousPS": ["Shamshabad", "Madhapur", "Secunderabad"],
+    "role": "IO",
+    "active": true,
+    "_id": "60efd79467144231b87cc55a",
+    "presentPS": "Panjagutta",
+    "phone": "9999999999",
+    "aboutRole": "SUB INSPECTOR",
+    "email": "nageshwar@yopmail.com",
+    "firstName": "NageshwarRao",
+    "lastName": "G",
+    "userName": "abhi_m",
+    "name": "NageshwarRao G",
+    "created": "2021-07-15T06:37:08.521Z",
+    "__v": 1,
+    "updated": "2021-07-16T11:41:50.892Z",
+    "PAONumber": "PAO11225",
+    "rank": "Sub Inspector"
+  }
+}

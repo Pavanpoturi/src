@@ -1,0 +1,37 @@
+const actions = {
+  FETCH_ALTERATION_MEMO_REQUEST: "FETCH_ALTERATION_MEMO_REQUEST",
+  FETCH_ALTERATION_MEMO_SUCCESS: "FETCH_ALTERATION_MEMO_SUCCESS",
+  FETCH_ALTERATION_MEMO_ERROR: "FETCH_ALTERATION_MEMO_ERROR",
+
+  ADD_ALTERATION_MEMO_REQUEST: "ADD_ALTERATION_MEMO_REQUEST",
+  ADD_ALTERATION_MEMO_SUCCESS: "ADD_ALTERATION_MEMO_SUCCESS",
+  ADD_ALTERATION_MEMO_ERROR: "ADD_ALTERATION_MEMO_ERROR",
+
+  UPDATE_ALTERATION_MEMO_REQUEST: "UPDATE_ALTERATION_MEMO_REQUEST",
+  UPDATE_ALTERATION_MEMO_SUCCESS: "UPDATE_ALTERATION_MEMO_SUCCESS",
+  UPDATE_ALTERATION_MEMO_ERROR: "UPDATE_ALTERATION_MEMO_ERROR",
+
+  RESET_ACTIONTYPE: "RESET_ACTIONTYPE",
+
+  addAlterationMemoDetails: (url, body) => ({
+    type: actions.ADD_ALTERATION_MEMO_REQUEST,
+    payload: { url, body },
+  }),
+
+  updateAlterationMemoDetails: (url, body) => ({
+    type: actions.UPDATE_ALTERATION_MEMO_REQUEST,
+    payload: { url, body },
+  }),
+
+  getAlterationMemoList: (url) => ({
+    type: actions.FETCH_ALTERATION_MEMO_REQUEST,
+    payload: { url },
+  }),
+
+  resetActionType: () => {
+    return {
+      type: actions.RESET_ACTIONTYPE,
+    };
+  },
+};
+export default actions;

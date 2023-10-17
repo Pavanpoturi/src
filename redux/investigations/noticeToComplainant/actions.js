@@ -1,0 +1,38 @@
+const actions = {
+    FETCH_NOTICE_TO_COMPLAINANT_REQUEST: "FETCH_NOTICE_TO_COMPLAINANT_REQUEST",
+    FETCH_NOTICE_TO_COMPLAINANT_SUCCESS: "FETCH_NOTICE_TO_COMPLAINANT_SUCCESS",
+    FETCH_NOTICE_TO_COMPLAINANT_ERROR: "FETCH_NOTICE_TO_COMPLAINANT_ERROR",
+  
+    ADD_NOTICE_TO_COMPLAINANT_REQUEST: "ADD_NOTICE_TO_COMPLAINANT_REQUEST",
+    ADD_NOTICE_TO_COMPLAINANT_SUCCESS: "ADD_NOTICE_TO_COMPLAINANT_SUCCESS",
+    ADD_NOTICE_TO_COMPLAINANT_ERROR: "ADD_NOTICE_TO_COMPLAINANT_ERROR",
+  
+    UPDATE_NOTICE_TO_COMPLAINANT_REQUEST: "UPDATE_NOTICE_TO_COMPLAINANT_REQUEST",
+    UPDATE_NOTICE_TO_COMPLAINANT_SUCCESS: "UPDATE_NOTICE_TO_COMPLAINANT_SUCCESS",
+    UPDATE_NOTICE_TO_COMPLAINANT_ERROR: "UPDATE_NOTICE_TO_COMPLAINANT_ERROR",
+  
+    RESET_ACTIONTYPE: "RESET_ACTIONTYPE",
+  
+    addNoticeToComplainantDetails: (url, body) => ({
+      type: actions.ADD_NOTICE_TO_COMPLAINANT_REQUEST,
+      payload: { url, body },
+    }),
+  
+    updateNoticeToComplainantDetails: (url, body) => ({
+      type: actions.UPDATE_NOTICE_TO_COMPLAINANT_REQUEST,
+      payload: { url, body },
+    }),
+  
+    getNoticeToComplainantList: (url) => ({
+      type: actions.FETCH_NOTICE_TO_COMPLAINANT_REQUEST,
+      payload: { url },
+    }),
+  
+    resetActionType: () => {
+      return {
+        type: actions.RESET_ACTIONTYPE,
+      };
+    },
+  };
+  export default actions;
+  

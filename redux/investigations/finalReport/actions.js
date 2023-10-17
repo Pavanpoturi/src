@@ -1,0 +1,37 @@
+const actions = {
+  FETCH_FINALREPORT_REQUEST: "FETCH_FINALREPORT_REQUEST",
+  FETCH_FINALREPORT_SUCCESS: "FETCH_FINALREPORT_SUCCESS",
+  FETCH_FINALREPORT_ERROR: "FETCH_FINALREPORT_ERROR",
+
+  ADD_FINALREPORT_REQUEST: "ADD_FINALREPORT_REQUEST",
+  ADD_FINALREPORT_SUCCESS: "ADD_FINALREPORT_SUCCESS",
+  ADD_FINALREPORT_ERROR: "ADD_FINALREPORT_ERROR",
+
+  UPLOAD_FINALREPORT_REQUEST: "UPLOAD_FINALREPORT_REQUEST",
+  UPLOAD_FINALREPORT_SUCCESS: "UPLOAD_FINALREPORT_SUCCESS",
+  UPLOAD_FINALREPORT_ERROR: "UPLOAD_FINALREPORT_ERROR",
+
+  RESET_ACTIONTYPE: "RESET_ACTIONTYPE",
+
+  addFinalReportDetails: (url, body) => ({
+    type: actions.ADD_FINALREPORT_REQUEST,
+    payload: { url, body },
+  }),
+
+  finalReportUpload: (url, body) => ({
+    type: actions.UPLOAD_FINALREPORT_REQUEST,
+    payload: { url, body },
+  }),
+
+  getFinalReportList: (url) => ({
+    type: actions.FETCH_FINALREPORT_REQUEST,
+    payload: { url },
+  }),
+
+  resetActionType: () => {
+    return {
+      type: actions.RESET_ACTIONTYPE,
+    };
+  },
+};
+export default actions;

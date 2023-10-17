@@ -1,0 +1,181 @@
+{
+  "status": true,
+  "data": [
+    {
+      "wrk_by": [
+        {
+          "staff_id": "60fbdab8595dca4852d02dce",
+          "role_id": "60fbdb5a595dca4852d02dd0"
+        }
+      ],
+      "_id": "60fbd8f2595dca4852d02dba",
+      "firDetail": {
+        "firNum": "220/2020",
+        "section": "IPC 43-338",
+        "district": "Ranga Reddy",
+        "fir_date": "2021-02-02T18:30:00.000Z",
+        "occurrence_date": "2021-01-02T18:30:00.000Z",
+        "crime_classification": "Bodily Offence",
+        "dayssincelastupdate": 179,
+        "targetdaysleft": 179
+      },
+      "pre_crime": {
+        "patrol_cars_blue_colts": false,
+        "toolkit": false,
+        "support_staff": {
+          "staff": ["60fae65579cceda4cebe87e9", "60faea6279cceda4cebe8b3d"],
+          "person": ["60fbba22595dca4852d02c6e", "60fbba22595dca4852d02c6f"]
+        },
+        "expert_team": {
+          "team": [
+            { "id": "60fa6d419a10362379c9dca4", "internal": true },
+            { "id": "60fbba22595dca4852d02c78", "internal": false }
+          ]
+        },
+        "crime_shown": {
+          "person": [
+            { "id": "60faead379cceda4cebe8b3e", "internal": true },
+            { "id": "60fbba22595dca4852d02c95", "internal": false }
+          ]
+        },
+        "complete": true,
+        "officer": ["60fbdab8595dca4852d02dce", "60fbdb5a595dca4852d02dd0"]
+      },
+      "post_crime": { "complete": false },
+      "last_update_date": "2021-02-02T18:30:00.000Z",
+      "caseStatus": "Disposed"
+    },
+    {
+      "wrk_by": [
+        {
+          "staff_id": "60fbdab8595dca4852d02dce",
+          "role_id": "60fbdb5a595dca4852d02dd0"
+        }
+      ],
+      "_id": "60fbd8fd595dca4852d02dbb",
+      "firDetail": {
+        "firNum": "221/2020",
+        "section": "IPC 43-338",
+        "district": "Ranga Reddy",
+        "fir_date": "2021-02-02T18:30:00.000Z",
+        "occurrence_date": "2021-01-02T18:30:00.000Z",
+        "crime_classification": "Bodily Offence",
+        "dayssincelastupdate": 179,
+        "targetdaysleft": 179
+      },
+      "pre_crime": {
+        "patrol_cars_blue_colts": false,
+        "toolkit": false,
+        "support_staff": {
+          "staff": ["60fae65579cceda4cebe87e9", "60faea6279cceda4cebe8b3d"],
+          "person": ["60fbba22595dca4852d02c6e", "60fbba22595dca4852d02c6f"]
+        },
+        "expert_team": {
+          "team": [
+            { "id": "60fa6d419a10362379c9dca4", "internal": true },
+            { "id": "60fbba22595dca4852d02c78", "internal": false }
+          ]
+        },
+        "crime_shown": {
+          "person": [
+            { "id": "60faead379cceda4cebe8b3e", "internal": true },
+            { "id": "60fbba22595dca4852d02c95", "internal": false }
+          ]
+        },
+        "complete": true,
+        "officer": ["60fbdab8595dca4852d02dce", "60fbdb5a595dca4852d02dd0"]
+      },
+      "post_crime": { "complete": false },
+      "last_update_date": "2021-02-02T18:30:00.000Z",
+      "caseStatus": "Disposed"
+    },
+    {
+      "wrk_by": [
+        {
+          "staff_id": "60fbdab8595dca4852d02dce",
+          "role_id": "60fbdb5a595dca4852d02dd0"
+        }
+      ],
+      "_id": "60fbd908595dca4852d02dbc",
+      "firDetail": {
+        "firNum": "222/2020",
+        "section": "IPC 43-338",
+        "district": "Ranga Reddy",
+        "fir_date": "2021-02-02T18:30:00.000Z",
+        "occurrence_date": "2021-01-02T18:30:00.000Z",
+        "crime_classification": "Bodily Offence",
+        "dayssincelastupdate": 179,
+        "targetdaysleft": 179
+      },
+      "pre_crime": {
+        "patrol_cars_blue_colts": false,
+        "toolkit": false,
+        "support_staff": {
+          "staff": ["60fae65579cceda4cebe87e9", "60faea6279cceda4cebe8b3d"],
+          "person": ["60fbba22595dca4852d02c6e", "60fbba22595dca4852d02c6f"]
+        },
+        "expert_team": {
+          "team": [
+            { "id": "60fa6d419a10362379c9dca4", "internal": true },
+            { "id": "60fbba22595dca4852d02c78", "internal": false }
+          ]
+        },
+        "crime_shown": {
+          "person": [
+            { "id": "60faead379cceda4cebe8b3e", "internal": true },
+            { "id": "60fbba22595dca4852d02c95", "internal": false }
+          ]
+        },
+        "complete": true,
+        "officer": ["60fbdab8595dca4852d02dce", "60fbdb5a595dca4852d02dd0"]
+      },
+      "post_crime": { "complete": false },
+      "last_update_date": "2021-02-02T18:30:00.000Z",
+      "caseStatus": "Disposed"
+    },
+    {
+      "wrk_by": [
+        {
+          "staff_id": "60fbdab8595dca4852d02dce",
+          "role_id": "60fbdb5a595dca4852d02dd0"
+        }
+      ],
+      "_id": "60fbd913595dca4852d02dbd",
+      "firDetail": {
+        "firNum": "223/2020",
+        "section": "IPC 43-338",
+        "district": "Ranga Reddy",
+        "fir_date": "2021-02-02T18:30:00.000Z",
+        "occurrence_date": "2021-01-02T18:30:00.000Z",
+        "crime_classification": "Bodily Offence",
+        "dayssincelastupdate": 179,
+        "targetdaysleft": 179
+      },
+      "pre_crime": {
+        "patrol_cars_blue_colts": false,
+        "toolkit": false,
+        "support_staff": {
+          "staff": ["60fae65579cceda4cebe87e9", "60faea6279cceda4cebe8b3d"],
+          "person": ["60fbba22595dca4852d02c6e", "60fbba22595dca4852d02c6f"]
+        },
+        "expert_team": {
+          "team": [
+            { "id": "60fa6d419a10362379c9dca4", "internal": true },
+            { "id": "60fbba22595dca4852d02c78", "internal": false }
+          ]
+        },
+        "crime_shown": {
+          "person": [
+            { "id": "60faead379cceda4cebe8b3e", "internal": true },
+            { "id": "60fbba22595dca4852d02c95", "internal": false }
+          ]
+        },
+        "complete": true,
+        "officer": ["60fbdab8595dca4852d02dce", "60fbdb5a595dca4852d02dd0"]
+      },
+      "post_crime": { "complete": false },
+      "last_update_date": "2021-02-02T18:30:00.000Z",
+      "caseStatus": "Disposed"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+const actions = {
+  FETCH_CHARGE_SHEET_STATUS_REQUEST: "FETCH_CHARGE_SHEET_STATUS_REQUEST",
+  FETCH_CHARGE_SHEET_STATUS_SUCCESS: "FETCH_CHARGE_SHEET_STATUS_SUCCESS",
+  FETCH_CHARGE_SHEET_STATUS_ERROR: "FETCH_CHARGE_SHEET_STATUS_ERROR",
+
+  ADD_CHARGE_SHEET_STATUS_REQUEST: "ADD_CHARGE_SHEET_STATUS_REQUEST",
+  ADD_CHARGE_SHEET_STATUS_SUCCESS: "ADD_CHARGE_SHEET_STATUS_SUCCESS",
+  ADD_CHARGE_SHEET_STATUS_ERROR: "ADD_CHARGE_SHEET_STATUS_ERROR",
+
+  RESET_ACTIONTYPE: "RESET_ACTIONTYPE",
+
+  addUpdateChargeSheetStatusDetails: (url, body) => ({
+    type: actions.ADD_CHARGE_SHEET_STATUS_REQUEST,
+    payload: { url, body },
+  }),
+
+  getUpdateChargeSheetStatusList: (url) => ({
+    type: actions.FETCH_CHARGE_SHEET_STATUS_REQUEST,
+    payload: { url },
+  }),
+
+  resetActionType: () => {
+    return {
+      type: actions.RESET_ACTIONTYPE,
+    };
+  },
+};
+export default actions;

@@ -1,0 +1,37 @@
+const actions = {
+  FETCH_POLICE_CUSTODY_REQUEST: "FETCH_POLICE_CUSTODY_REQUEST",
+  FETCH_POLICE_CUSTODY_SUCCESS: "FETCH_POLICE_CUSTODY_SUCCESS",
+  FETCH_POLICE_CUSTODY_ERROR: "FETCH_POLICE_CUSTODY_ERROR",
+
+  ADD_POLICE_CUSTODY_REQUEST: "ADD_POLICE_CUSTODY_REQUEST",
+  ADD_POLICE_CUSTODY_SUCCESS: "ADD_POLICE_CUSTODY_SUCCESS",
+  ADD_POLICE_CUSTODY_ERROR: "ADD_POLICE_CUSTODY_ERROR",
+
+  UPDATE_POLICE_CUSTODY_REQUEST: "UPDATE_POLICE_CUSTODY_REQUEST",
+  UPDATE_POLICE_CUSTODY_SUCCESS: "UPDATE_POLICE_CUSTODY_SUCCESS",
+  UPDATE_POLICE_CUSTODY_ERROR: "UPDATE_POLICE_CUSTODY_ERROR",
+
+  RESET_ACTIONTYPE: "RESET_ACTIONTYPE",
+
+  addPoliceCustodyDetails: (url, body) => ({
+    type: actions.ADD_POLICE_CUSTODY_REQUEST,
+    payload: { url, body },
+  }),
+
+  updatePoliceCustodyDetails: (url, body) => ({
+    type: actions.UPDATE_POLICE_CUSTODY_REQUEST,
+    payload: { url, body },
+  }),
+
+  getPoliceCustodyList: (url) => ({
+    type: actions.FETCH_POLICE_CUSTODY_REQUEST,
+    payload: { url },
+  }),
+
+  resetActionType: () => {
+    return {
+      type: actions.RESET_ACTIONTYPE,
+    };
+  },
+};
+export default actions;

@@ -1,0 +1,42 @@
+const actions = {
+  FETCH_DASHBOARD_REQUEST: "FETCH_DASHBOARD_REQUEST",
+  FETCH_DASHBOARD_SUCCESS: "FETCH_DASHBOARD_SUCCESS",
+  FETCH_DASHBOARD_ERROR: "FETCH_DASHBOARD_ERROR",
+
+  FETCH_RECENTEDITLIST_REQUEST: "FETCH_RECENTEDITLIST_REQUEST",
+  FETCH_RECENTEDITLIST_SUCCESS: "FETCH_RECENTEDITLIST_SUCCESS",
+  FETCH_RECENTEDITLIST_ERROR: "FETCH_RECENTEDITLIST_ERROR",
+
+  FETCH_DASHBOARD_CASE_COUNT_REQUEST: "FETCH_DASHBOARD_CASE_COUNT_REQUEST",
+  FETCH_DASHBOARD_CASE_COUNT_SUCCESS: "FETCH_DASHBOARD_CASE_COUNT_SUCCESS",
+  FETCH_DASHBOARD_CASE_COUNT_ERROR: "FETCH_DASHBOARD_CASE_COUNT_ERROR",
+
+  GET_SELECTED_WIDGET_DATA: "GET_SELECTED_WIDGET_DATA",
+
+  SET_VIEW_PERSNOLIZED: "SET_VIEW_PERSNOLIZED",
+
+  fetchDashboardDetails: (url) => ({
+    type: actions.FETCH_DASHBOARD_REQUEST,
+    payload: { url },
+  }),
+
+  fetchRecentEditList: (url) => ({
+    type: actions.FETCH_RECENTEDITLIST_REQUEST,
+    payload: { url },
+  }),
+
+  fetchCaseCountList: (url) => ({
+    type: actions.FETCH_DASHBOARD_CASE_COUNT_REQUEST,
+    payload: { url },
+  }),
+
+  getSelectedDashboard: (value) => ({
+    type: actions.GET_SELECTED_WIDGET_DATA,
+    selecteDashboard: value,
+  }),
+  isPersnolizedView: (value) => ({
+    type: actions.SET_VIEW_PERSNOLIZED,
+    isPersnolized: value,
+  }),
+};
+export default actions;

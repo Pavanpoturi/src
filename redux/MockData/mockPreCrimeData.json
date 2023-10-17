@@ -1,0 +1,101 @@
+[
+  {
+    "patrol_cars_blue_colts": true,
+    "toolkit": true,
+    "complete": null,
+    "officer": [],
+    "support_staff": {
+      "staff": [
+        {
+          "firstname": "Chaitanya",
+          "surname": "Tallapragada",
+          "internalFlag": false
+        },
+        { "firstname": "First Name", "surname": "Last Name", "internalFlag": false }
+      ]
+    },
+    "crime_shown": {
+      "person": [
+        {
+          "id": "61561e473f4c6e3974f494a8",
+          "name": " State Police Through Sri N Ramesh SI of Police",
+          "relationType": "",
+          "aliasName": " State Police Through Sri N Ramesh SI of Police",
+          "age": "0",
+          "caste": "",
+          "dateOfBirth": "",
+          "educationQualification": "",
+          "emailId": "",
+          "fatherHusbandGuardianName": "",
+          "gender": "Male",
+          "nationality": "India",
+          "occupation": "",
+          "phoneNumber": "7901113462",
+          "religion": "",
+          "subCaste": "",
+          "surname": "",
+          "internalFlag": true,
+          "dob": "",
+          "address": "",
+          "phonenumber": "7901113462"
+        },
+        {
+          "name": "chaitanya",
+          "surname": "Tallapragada",
+          "internalFlag": false
+        }
+      ]
+    },
+    "expert_team": {
+      "team": [
+        { "firstname": "sss", "surname": "sfsdggsd", "internalFlag": false }
+      ]
+    }
+  },
+  {
+    "patrol_cars_blue_colts": false,
+    "toolkit": false,
+    "complete": null,
+    "officer": [],
+    "support_staff": {
+      "staff": [
+        {
+          "unit_name": "Balanagar PS(Cyberabad)",
+          "rank_name": "Inspector",
+          "emp_role_name": "STATION WRITER",
+          "status_name": "WORKING",
+          "date_of_birth": "14/04/1982",
+          "date_of_join_in_service": "27/06/2008",
+          "mobile_no": "9552099954",
+          "employee_name": "BILLA  KIRAN KUMAR",
+          "general_no": "--",
+          "date_of_retirement": "30/04/2043",
+          "pao_code": "1417170",
+          "checked": true,
+          "internalFlag": true
+        },
+        { "firstname": "First Name", "surname": "Last Name", "internalFlag": false }
+      ]
+    },
+    "crime_shown": { "person": [] },
+    "expert_team": {
+      "team": [
+        {
+          "unit_name": "Balanagar PS(Cyberabad)",
+          "rank_name": "Inspector",
+          "emp_role_name": "STATION HOUSE OFFICER (SHO)",
+          "status_name": "WORKING",
+          "date_of_birth": "10/04/1971",
+          "date_of_join_in_service": "17/08/1999",
+          "mobile_no": "9642547001",
+          "employee_name": "MOHD  WAHEEDUDDIN",
+          "general_no": "19304",
+          "date_of_retirement": "30/04/2032",
+          "pao_code": "2007707",
+          "checked": true,
+          "internalFlag": true
+        }
+      ]
+    }
+  }
+]

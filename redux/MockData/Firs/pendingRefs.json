@@ -1,0 +1,256 @@
+{
+    "status": true,
+    "data": [
+        {
+            "wrk_by": [
+                {
+                    "staff_id": "60fbdab8595dca4852d02dce",
+                    "role_id": "60fbdb5a595dca4852d02dd0"
+                }
+            ],
+            "_id": "60fbd974595dca4852d02dc1",
+            "firDetail": {
+                "firNum": "233/2020",
+                "section": "IPC 43-338",
+                "district": "Ranga Reddy",
+                "fir_date": "2021-02-02T18:30:00.000Z",
+                "occurrence_date": "2021-01-02T18:30:00.000Z",
+                "crime_classification": "Bodily Offence",
+                "dayssincelastupdate": 179,
+                "targetdaysleft": 179
+            },
+            "pre_crime": {
+                "complete": false,
+                "officer": [
+                    "60fbdab8595dca4852d02dce",
+                    "60fbdb5a595dca4852d02dd0"
+                ]
+            },
+            "post_crime": {
+                "complete": false
+            },
+            "last_update_date": "2021-02-02T18:30:00.000Z",
+            "caseStatus": "Pending Refs"
+        },
+        {
+            "wrk_by": [
+                {
+                    "staff_id": "60fbdab8595dca4852d02dce",
+                    "role_id": "60fbdb5a595dca4852d02dd0"
+                }
+            ],
+            "_id": "60fbd97e595dca4852d02dc2",
+            "firDetail": {
+                "firNum": "234/2020",
+                "section": "IPC 43-338",
+                "district": "Ranga Reddy",
+                "fir_date": "2021-02-02T18:30:00.000Z",
+                "occurrence_date": "2021-01-02T18:30:00.000Z",
+                "crime_classification": "Bodily Offence",
+                "dayssincelastupdate": 179,
+                "targetdaysleft": 179
+            },
+            "pre_crime": {
+                "complete": false,
+                "officer": [
+                    "60fbdab8595dca4852d02dce",
+                    "60fbdb5a595dca4852d02dd0"
+                ]
+            },
+            "post_crime": {
+                "complete": false
+            },
+            "last_update_date": "2021-02-02T18:30:00.000Z",
+            "caseStatus": "Pending Refs"
+        },
+        {
+            "wrk_by": [
+                {
+                    "staff_id": "60fbdab8595dca4852d02dce",
+                    "role_id": "60fbdb5a595dca4852d02dd0"
+                }
+            ],
+            "_id": "60fbd988595dca4852d02dc3",
+            "firDetail": {
+                "firNum": "235/2020",
+                "section": "IPC 43-338",
+                "district": "Ranga Reddy",
+                "fir_date": "2021-02-02T18:30:00.000Z",
+                "occurrence_date": "2021-01-02T18:30:00.000Z",
+                "crime_classification": "Bodily Offence",
+                "dayssincelastupdate": 179,
+                "targetdaysleft": 179
+            },
+            "pre_crime": {
+                "complete": false,
+                "officer": [
+                    "60fbdab8595dca4852d02dce",
+                    "60fbdb5a595dca4852d02dd0"
+                ]
+            },
+            "post_crime": {
+                "complete": false
+            },
+            "last_update_date": "2021-02-02T18:30:00.000Z",
+            "caseStatus": "Pending Refs"
+        },
+        {
+            "wrk_by": [
+                {
+                    "staff_id": "60fbdab8595dca4852d02dce",
+                    "role_id": "60fbdb5a595dca4852d02dd0"
+                }
+            ],
+            "_id": "60fbd991595dca4852d02dc4",
+            "firDetail": {
+                "firNum": "236/2020",
+                "section": "IPC 43-338",
+                "district": "Ranga Reddy",
+                "fir_date": "2021-02-02T18:30:00.000Z",
+                "occurrence_date": "2021-01-02T18:30:00.000Z",
+                "crime_classification": "Bodily Offence",
+                "dayssincelastupdate": 179,
+                "targetdaysleft": 179
+            },
+            "pre_crime": {
+                "complete": false,
+                "officer": [
+                    "60fbdab8595dca4852d02dce",
+                    "60fbdb5a595dca4852d02dd0"
+                ]
+            },
+            "post_crime": {
+                "complete": false
+            },
+            "last_update_date": "2021-02-02T18:30:00.000Z",
+            "caseStatus": "Pending Refs"
+        },
+        {
+            "wrk_by": [
+                {
+                    "staff_id": "60fbdab8595dca4852d02dce",
+                    "role_id": "60fbdb5a595dca4852d02dd0"
+                }
+            ],
+            "_id": "60fbd99c595dca4852d02dc5",
+            "firDetail": {
+                "firNum": "237/2020",
+                "section": "IPC 43-338",
+                "district": "Ranga Reddy",
+                "fir_date": "2021-02-02T18:30:00.000Z",
+                "occurrence_date": "2021-01-02T18:30:00.000Z",
+                "crime_classification": "Bodily Offence",
+                "dayssincelastupdate": 179,
+                "targetdaysleft": 179
+            },
+            "pre_crime": {
+                "complete": false,
+                "officer": [
+                    "60fbdab8595dca4852d02dce",
+                    "60fbdb5a595dca4852d02dd0"
+                ]
+            },
+            "post_crime": {
+                "complete": false
+            },
+            "last_update_date": "2021-02-02T18:30:00.000Z",
+            "caseStatus": "Pending Refs"
+        },
+        {
+            "wrk_by": [
+                {
+                    "staff_id": "60fbdab8595dca4852d02dce",
+                    "role_id": "60fbdb5a595dca4852d02dd0"
+                }
+            ],
+            "_id": "60fbd9a5595dca4852d02dc6",
+            "firDetail": {
+                "firNum": "238/2020",
+                "section": "IPC 43-338",
+                "district": "Ranga Reddy",
+                "fir_date": "2021-02-02T18:30:00.000Z",
+                "occurrence_date": "2021-01-02T18:30:00.000Z",
+                "crime_classification": "Bodily Offence",
+                "dayssincelastupdate": 179,
+                "targetdaysleft": 179
+            },
+            "pre_crime": {
+                "complete": false,
+                "officer": [
+                    "60fbdab8595dca4852d02dce",
+                    "60fbdb5a595dca4852d02dd0"
+                ]
+            },
+            "post_crime": {
+                "complete": false
+            },
+            "last_update_date": "2021-02-02T18:30:00.000Z",
+            "caseStatus": "Pending Refs",
+            "staff_id": "60fae65579cceda4cebe87e9"
+        },
+        {
+            "wrk_by": [
+                {
+                    "staff_id": "60fbdab8595dca4852d02dce",
+                    "role_id": "60fbdb5a595dca4852d02dd0"
+                }
+            ],
+            "_id": "60fbd9ae595dca4852d02dc7",
+            "firDetail": {
+                "firNum": "239/2020",
+                "section": "IPC 43-338",
+                "district": "Ranga Reddy",
+                "fir_date": "2021-02-02T18:30:00.000Z",
+                "occurrence_date": "2021-01-02T18:30:00.000Z",
+                "crime_classification": "Bodily Offence",
+                "dayssincelastupdate": 179,
+                "targetdaysleft": 179
+            },
+            "pre_crime": {
+                "complete": false,
+                "officer": [
+                    "60fbdab8595dca4852d02dce",
+                    "60fbdb5a595dca4852d02dd0"
+                ]
+            },
+            "post_crime": {
+                "complete": false
+            },
+            "last_update_date": "2021-02-02T18:30:00.000Z",
+            "caseStatus": "Pending Refs",
+            "staff_id": "60fae65579cceda4cebe87e9"
+        },
+        {
+            "wrk_by": [
+                {
+                    "staff_id": "60fbdab8595dca4852d02dce",
+                    "role_id": "60fbdb5a595dca4852d02dd0"
+                }
+            ],
+            "_id": "60fbd9bd595dca4852d02dc8",
+            "firDetail": {
+                "firNum": "240/2020",
+                "section": "IPC 43-338",
+                "district": "Ranga Reddy",
+                "fir_date": "2021-02-02T18:30:00.000Z",
+                "occurrence_date": "2021-01-02T18:30:00.000Z",
+                "crime_classification": "Bodily Offence",
+                "dayssincelastupdate": 179,
+                "targetdaysleft": 179
+            },
+            "pre_crime": {
+                "complete": false,
+                "officer": [
+                    "60fbdab8595dca4852d02dce",
+                    "60fbdb5a595dca4852d02dd0"
+                ]
+            },
+            "post_crime": {
+                "complete": false
+            },
+            "last_update_date": "2021-02-02T18:30:00.000Z",
+            "caseStatus": "Pending Refs",
+            "staff_id": "60fae65579cceda4cebe87e9"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+const actions = {
+  FETCH_CHARGESHEET_REQUEST: "FETCH_CHARGESHEET_REQUEST",
+  FETCH_CHARGESHEET_SUCCESS: "FETCH_CHARGESHEET_SUCCESS",
+  FETCH_CHARGESHEET_ERROR: "FETCH_CHARGESHEET_ERROR",
+
+  ADD_CHARGESHEET_REQUEST: "ADD_CHARGESHEET_REQUEST",
+  ADD_CHARGESHEET_SUCCESS: "ADD_CHARGESHEET_SUCCESS",
+  ADD_CHARGESHEET_ERROR: "ADD_CHARGESHEET_ERROR",
+
+  UPLOAD_CHARGESHEET_REQUEST: "UPLOAD_CHARGESHEET_REQUEST",
+  UPLOAD_CHARGESHEET_SUCCESS: "UPLOAD_CHARGESHEET_SUCCESS",
+  UPLOAD_CHARGESHEET_ERROR: "UPLOAD_CHARGESHEET_ERROR",
+
+  FETCH_MO_STOLEN_REQUEST: "FETCH_MO_STOLEN_REQUEST",
+  FETCH_MO_STOLEN_SUCCESS: "FETCH_MO_STOLEN_SUCCESS",
+  FETCH_MO_STOLEN_ERROR: "FETCH_MO_STOLEN_ERROR",
+
+  RESET_ACTIONTYPE: "RESET_ACTIONTYPE",
+
+  addChargesheetDetails: (url, body) => ({
+    type: actions.ADD_CHARGESHEET_REQUEST,
+    payload: { url, body },
+  }),
+
+  uploadChargesheet: (url, body) => ({
+    type: actions.UPLOAD_CHARGESHEET_REQUEST,
+    payload: { url, body },
+  }),
+
+  getChargesheetList: (url) => ({
+    type: actions.FETCH_CHARGESHEET_REQUEST,
+    payload: { url },
+  }),
+
+  getMoSeizedForChargeSheet: (url) => ({
+    type: actions.FETCH_MO_STOLEN_REQUEST,
+    payload: { url },
+  }),
+
+  resetActionType: () => {
+    return {
+      type: actions.RESET_ACTIONTYPE,
+    };
+  },
+};
+export default actions;

@@ -1,0 +1,37 @@
+const actions = {
+  FETCH_ADDITIONAL_MEMO_REQUEST: "FETCH_ADDITIONAL_MEMO_REQUEST",
+  FETCH_ADDITIONAL_MEMO_SUCCESS: "FETCH_ADDITIONAL_MEMO_SUCCESS",
+  FETCH_ADDITIONAL_MEMO_ERROR: "FETCH_ADDITIONAL_MEMO_ERROR",
+
+  ADD_ADDITIONAL_MEMO_REQUEST: "ADD_ADDITIONAL_MEMO_REQUEST",
+  ADD_ADDITIONAL_MEMO_SUCCESS: "ADD_ADDITIONAL_MEMO_SUCCESS",
+  ADD_ADDITIONAL_MEMO_ERROR: "ADD_ADDITIONAL_MEMO_ERROR",
+
+  UPDATE_ADDITIONAL_MEMO_REQUEST: "UPDATE_ADDITIONAL_MEMO_REQUEST",
+  UPDATE_ADDITIONAL_MEMO_SUCCESS: "UPDATE_ADDITIONAL_MEMO_SUCCESS",
+  UPDATE_ADDITIONAL_MEMO_ERROR: "UPDATE_ADDITIONAL_MEMO_ERROR",
+
+  RESET_ACTIONTYPE: "RESET_ACTIONTYPE",
+
+  addAdditionalMemoDetails: (url, body) => ({
+    type: actions.ADD_ADDITIONAL_MEMO_REQUEST,
+    payload: { url, body },
+  }),
+
+  updateAdditionalMemoDetails: (url, body) => ({
+    type: actions.UPDATE_ADDITIONAL_MEMO_REQUEST,
+    payload: { url, body },
+  }),
+
+  getAdditionalMemoList: (url) => ({
+    type: actions.FETCH_ADDITIONAL_MEMO_REQUEST,
+    payload: { url },
+  }),
+
+  resetActionType: () => {
+    return {
+      type: actions.RESET_ACTIONTYPE,
+    };
+  },
+};
+export default actions;

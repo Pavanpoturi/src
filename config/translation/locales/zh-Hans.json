@@ -1,0 +1,14 @@
+{
+  "page.signInForgotPass": "Forgot password?",
+  "page.signInRememberMe": "Remember me",
+  "page.signInButton": "Login",
+  "page.title.settings": "Settings",
+  "sidebar.dashboard": "Dashboard",
+  "sidebar.settings": "Settings",
+  "sidebar.casesList": "Cases List",
+  "sidebar.myPerformance": "My Performance",
+  "sidebar.reports": "Reports",
+  "sidebar.logout": "Logout",
+  "page.presentAddress":"Use same as Present Address",
+  "page.submit": "Submit"
+}

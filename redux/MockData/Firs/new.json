@@ -1,0 +1,74 @@
+{
+  "status": true,
+  "data": [
+    {
+      "wrk_by": [
+        {
+          "staff_id": "60fbdab8595dca4852d02dce",
+          "role_id": "60fbdb5a595dca4852d02dd0"
+        }
+      ],
+      "_id": "60fbd945595dca4852d02dbe",
+      "firDetail": {
+        "firNum": "230/2020",
+        "section": "IPC 43-338",
+        "district": "Ranga Reddy",
+        "fir_date": "2021-02-02T18:30:00.000Z",
+        "occurrence_date": "2021-01-02T18:30:00.000Z",
+        "crime_classification": "Bodily Offence",
+        "dayssincelastupdate": 179,
+        "targetdaysleft": 179
+      },
+      "pre_crime": { "complete": false },
+      "post_crime": { "complete": false },
+      "last_update_date": "2021-02-02T18:30:00.000Z",
+      "caseStatus": "New"
+    },
+    {
+      "wrk_by": [
+        {
+          "staff_id": "60fbdab8595dca4852d02dce",
+          "role_id": "60fbdb5a595dca4852d02dd0"
+        }
+      ],
+      "_id": "60fbd950595dca4852d02dbf",
+      "firDetail": {
+        "firNum": "231/2020",
+        "section": "IPC 43-338",
+        "district": "Ranga Reddy",
+        "fir_date": "2021-02-02T18:30:00.000Z",
+        "occurrence_date": "2021-01-02T18:30:00.000Z",
+        "crime_classification": "Bodily Offence",
+        "dayssincelastupdate": 179,
+        "targetdaysleft": 179
+      },
+      "pre_crime": { "complete": false },
+      "post_crime": { "complete": false },
+      "last_update_date": "2021-02-02T18:30:00.000Z",
+      "caseStatus": "New"
+    },
+    {
+      "wrk_by": [
+        {
+          "staff_id": "60fbdab8595dca4852d02dce",
+          "role_id": "60fbdb5a595dca4852d02dd0"
+        }
+      ],
+      "_id": "60fbd95b595dca4852d02dc0",
+      "firDetail": {
+        "firNum": "232/2020",
+        "section": "IPC 43-338",
+        "district": "Ranga Reddy",
+        "fir_date": "2021-02-02T18:30:00.000Z",
+        "occurrence_date": "2021-01-02T18:30:00.000Z",
+        "crime_classification": "Bodily Offence",
+        "dayssincelastupdate": 179,
+        "targetdaysleft": 179
+      },
+      "pre_crime": { "complete": false },
+      "post_crime": { "complete": false },
+      "last_update_date": "2021-02-02T18:30:00.000Z",
+      "caseStatus": "New"
+    }
+  ]
+}

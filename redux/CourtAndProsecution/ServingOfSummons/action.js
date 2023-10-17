@@ -1,0 +1,46 @@
+const actions = {
+  FETCH_SERVING_OF_SUMMONS_REQUEST: "FETCH_SERVING_OF_SUMMONS_REQUEST",
+  FETCH_SERVING_OF_SUMMONS_SUCCESS: "FETCH_SERVING_OF_SUMMONS_SUCCESS",
+  FETCH_SERVING_OF_SUMMONS_ERROR: "FETCH_SERVING_OF_SUMMONS_ERROR",
+
+  ADD_SERVING_OF_SUMMONS_REQUEST: "ADD_SERVING_OF_SUMMONS_REQUEST",
+  ADD_SERVING_OF_SUMMONS_SUCCESS: "ADD_SERVING_OF_SUMMONS_SUCCESS",
+  ADD_SERVING_OF_SUMMONS_ERROR: "ADD_SERVING_OF_SUMMONS_ERROR",
+
+  UPDATE_SERVING_OF_SUMMONS_REQUEST: "UPDATE_SERVING_OF_SUMMONS_REQUEST",
+  UPDATE_SERVING_OF_SUMMONS_SUCCESS: "UPDATE_SERVING_OF_SUMMONS_SUCCESS",
+  UPDATE_SERVING_OF_SUMMONS_ERROR: "UPDATE_SERVING_OF_SUMMONS_ERROR",
+
+  RESET_ACTIONTYPE: "RESET_ACTIONTYPE",
+
+  RESET_SERVING_OF_SUMMONS_DATA: "RESET_SERVING_OF_SUMMONS_DATA",
+
+  getservingOfSummonsData: (url) => ({
+    type: actions.FETCH_SERVING_OF_SUMMONS_REQUEST,
+    payload: { url },
+  }),
+
+  createservingOfSummons: (url, body) => ({
+    type: actions.ADD_SERVING_OF_SUMMONS_REQUEST,
+    payload: { url, body },
+  }),
+
+  updateservingOfSummons: (url, body) => ({
+    type: actions.UPDATE_SERVING_OF_SUMMONS_REQUEST,
+    payload: { url, body },
+  }),
+
+  resetActionType: () => {
+    return {
+      type: actions.RESET_ACTIONTYPE,
+    };
+  },
+
+  resetservingOfSummonsData: () => {
+    return {
+      type: actions.RESET_SERVING_OF_SUMMONS_DATA,
+    };
+  },
+};
+
+export default actions;

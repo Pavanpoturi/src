@@ -1,0 +1,29 @@
+import styled from 'styled-components';
+import { palette } from 'styled-theme';
+import { variables } from "@assets/styles/variables";
+
+const BoxWrapper = styled.div`
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: ${variables.WHITE_COLOR};
+  border: 1px solid ${palette('border', 0)};
+  margin: 0 0 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @media only screen and (max-width: 767px) {
+    padding: 20px;
+  }
+
+  &.half {
+    width: calc(50% - 34px);
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+  }
+`;
+
+export { BoxWrapper };

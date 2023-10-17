@@ -1,0 +1,37 @@
+const actions = {
+  FETCH_LOOKOUT_NOTICE_REQUEST: "FETCH_LOOKOUT_NOTICE_REQUEST",
+  FETCH_LOOKOUT_NOTICE_SUCCESS: "FETCH_LOOKOUT_NOTICE_SUCCESS",
+  FETCH_LOOKOUT_NOTICE_ERROR: "FETCH_LOOKOUT_NOTICE_ERROR",
+
+  ADD_LOOKOUT_NOTICE_REQUEST: "ADD_LOOKOUT_NOTICE_REQUEST",
+  ADD_LOOKOUT_NOTICE_SUCCESS: "ADD_LOOKOUT_NOTICE_SUCCESS",
+  ADD_LOOKOUT_NOTICE_ERROR: "ADD_LOOKOUT_NOTICE_ERROR",
+
+  UPDATE_LOOKOUT_NOTICE_REQUEST: "UPDATE_LOOKOUT_NOTICE_REQUEST",
+  UPDATE_LOOKOUT_NOTICE_SUCCESS: "UPDATE_LOOKOUT_NOTICE_SUCCESS",
+  UPDATE_LOOKOUT_NOTICE_ERROR: "UPDATE_LOOKOUT_NOTICE_ERROR",
+
+  RESET_ACTIONTYPE: "RESET_ACTIONTYPE",
+
+  addLookoutNoticeDetails: (url, body) => ({
+    type: actions.ADD_LOOKOUT_NOTICE_REQUEST,
+    payload: { url, body },
+  }),
+
+  updateLookoutNoticeDetails: (url, body) => ({
+    type: actions.UPDATE_LOOKOUT_NOTICE_REQUEST,
+    payload: { url, body },
+  }),
+
+  getLookoutNoticeList: (url) => ({
+    type: actions.FETCH_LOOKOUT_NOTICE_REQUEST,
+    payload: { url },
+  }),
+
+  resetActionType: () => {
+    return {
+      type: actions.RESET_ACTIONTYPE,
+    };
+  },
+};
+export default actions;

@@ -1,0 +1,11 @@
+const actions = {
+  FETCH_REQUISITIONS_REQUEST: "FETCH_REQUISITIONS_REQUEST",
+  FETCH_REQUISITIONS_SUCCESS: "FETCH_REQUISITIONS_SUCCESS",
+  FETCH_REQUISITIONS_ERROR: "FETCH_REQUISITIONS_ERROR",
+
+  getRequisitionsList: (url) => ({
+    type: actions.FETCH_REQUISITIONS_REQUEST,
+    payload: { url },
+  }),
+};
+export default actions;

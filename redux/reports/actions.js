@@ -1,0 +1,96 @@
+const actions = {
+  REPORTED_CASES_REQUEST: "REPORTED_CASES_REQUEST",
+  REPORTED_CASES_SUCCESS: "REPORTED_CASES_SUCCESS",
+  REPORTED_CASES_ERROR: "REPORTED_CASES_ERROR",
+
+  CASES_STATUS_REQUEST: "CASES_STATUS_REQUEST",
+  CASES_STATUS_SUCCESS: "CASES_STATUS_SUCCESS",
+  CASES_STATUS_ERROR: "CASES_STATUS_ERROR",
+
+  MISSING_CASES_REQUEST: "MISSING_CASES_REQUEST",
+  MISSING_CASES_SUCCESS: "MISSING_CASES_SuCCESS",
+  MISSING_CASES_ERROR: "MISSING_CASES_ERROR",
+
+  ARREST_CASES_REQUEST: "ARREST_CASES_REQUEST",
+  ARREST_CASES_SUCCESS: "ARREST_CASES_SUCCESS",
+  ARREST_CASES_ERROR: "ARREST_CASES_ERROR",
+
+  REPORTS_DOWNLOAD_REQUEST: "REPORTS_DOWNLOAD_REQUEST",
+  REPORTS_DOWNLOAD_SUCCESS: "REPORTS_DOWNLOAD_SUCCESS",
+  REPORTS_DOWNLOAD_ERROR: "REPORTS_DOWNLOAD_ERROR",
+
+  PDF_REPORTS_DOWNLOAD_REQUEST: "PDF_REPORTS_DOWNLOAD_REQUEST",
+  PDF_REPORTS_DOWNLOAD_SUCCESS: "PDF_REPORTS_DOWNLOAD_SUCCESS",
+  PDF_REPORTS_DOWNLOAD_ERROR: "PDF_REPORTS_DOWNLOAD_ERROR",
+
+  FSL_REPORT_REQUEST: "FSL_REPORT_REQUEST",
+  FSL_REPORT_SUCCESS: "FSL_REPORT_SUCCESS",
+  FSL_REPORT_ERROR: "FSL_REPORT_ERROR",
+
+  RESET_REPORT_REQUEST: "RESET_REPORT_REQUEST",
+
+  GET_CIS_DETAILS_REQUEST: "GET_CIS_DETAILS_REQUEST",
+  GET_CIS_DETAILS_SUCCESS: "GET_CIS_DETAILS_SUCCESS",
+  GET_CIS_DETAILS_ERROR: "GET_CIS_DETAILS_ERROR",
+
+  GET_PS_DETAILS_REQUEST: "GET_PS_DETAILS_REQUEST",
+  GET_PS_DETAILS_SUCCESS: "GET_PS_DETAILS_SUCCESS",
+  GET_PS_DETAILS_ERROR: "GET_PS_DETAILS_ERROR",
+
+  TABLEAU_REPORT_REQUEST: "TABLEAU_REPORT_REQUEST",
+  TABLEAU_REPORT_SUCCESS: "TABLEAU_REPORT_SUCCESS",
+  TABLEAU_REPORT_ERROR: "TABLEAU_REPORT_ERROR",
+
+  fetchPsDetails: (url) => ({
+    type: actions.GET_PS_DETAILS_REQUEST,
+    payload: { url },
+  }),
+  fetchCisDetails: (url, body) => ({
+    type: actions.GET_CIS_DETAILS_REQUEST,
+    payload: { url, body },
+  }),
+  fetchReportedCases: (url) => ({
+    type: actions.REPORTED_CASES_REQUEST,
+    payload: { url },
+  }),
+
+  resetReportAction: () => ({
+    type: actions.RESET_REPORT_REQUEST,
+  }),
+
+  fetchCasesStatus: (url) => ({
+    type: actions.CASES_STATUS_REQUEST,
+    payload: { url },
+  }),
+
+  fetchMissingCases: (url) => ({
+    type: actions.MISSING_CASES_REQUEST,
+    payload: { url },
+  }),
+
+  fetchArrestCases: (url) => ({
+    type: actions.ARREST_CASES_REQUEST,
+    payload: { url },
+  }),
+
+  downloadReports: (url, fileName) => ({
+    type: actions.REPORTS_DOWNLOAD_REQUEST,
+    payload: { url, fileName },
+  }),
+
+  downloadPdfReports: (url) => ({
+    type: actions.PDF_REPORTS_DOWNLOAD_REQUEST,
+    payload: { url },
+  }),
+
+  fetchFSLReports: (url) => ({
+    type: actions.FSL_REPORT_REQUEST,
+    payload: { url },
+  }),
+  fetchTableauReports: (url, body) => ({
+    type: actions.TABLEAU_REPORT_REQUEST,
+    payload: { url, body },
+  }),
+};
+
+export default actions;

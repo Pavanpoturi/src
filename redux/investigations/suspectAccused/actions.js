@@ -1,0 +1,45 @@
+const actions = {
+  FETCH_SUSPECT_ACCUSED_REQUEST: "FETCH_SUSPECT_ACCUSED_REQUEST",
+  FETCH_SUSPECT_ACCUSED_SUCCESS: "FETCH_SUSPECT_ACCUSED_SUCCESS",
+  FETCH_SUSPECT_ACCUSED_ERROR: "FETCH_SUSPECT_ACCUSED_ERROR",
+
+  ADD_SUSPECT_ACCUSED_REQUEST: "ADD_SUSPECT_ACCUSED_REQUEST",
+  ADD_SUSPECT_ACCUSED_SUCCESS: "ADD_SUSPECT_ACCUSED_SUCCESS",
+  ADD_SUSPECT_ACCUSED_ERROR: "ADD_SUSPECT_ACCUSED_ERROR",
+
+  DELETE_PERSON_REQUEST: "DELETE_PERSON_REQUEST",
+  DELETE_PERSON_SUCCESS: "DELETE_PERSON_SUCCESS",
+  DELETE_PERSON_ERROR: "DELETE_PERSON_ERROR",
+
+  UPDATE_SUSPECT_ACCUSED_REQUEST: "UPDATE_SUSPECT_ACCUSED_REQUEST",
+  UPDATE_SUSPECT_ACCUSED_SUCCESS: "UPDATE_SUSPECT_ACCUSED_SUCCESS",
+  UPDATE_SUSPECT_ACCUSED_ERROR: "UPDATE_SUSPECT_ACCUSED_ERROR",
+
+  RESET_ACTIONTYPE: "RESET_ACTIONTYPE",
+
+  addAccusedDetails: (url, body) => ({
+    type: actions.ADD_SUSPECT_ACCUSED_REQUEST,
+    payload: { url, body },
+  }),
+
+  updateAccusedDetails: (url, body) => ({
+    type: actions.UPDATE_SUSPECT_ACCUSED_REQUEST,
+    payload: { url, body },
+  }),
+
+  getAccusedList: (url) => ({
+    type: actions.FETCH_SUSPECT_ACCUSED_REQUEST,
+    payload: { url },
+  }),
+  deletePersonDetails: (url, body) => ({
+    type: actions.DELETE_PERSON_REQUEST,
+    payload: { url, body },
+  }),
+
+  resetActionType: () => {
+    return {
+      type: actions.RESET_ACTIONTYPE,
+    };
+  },
+};
+export default actions;

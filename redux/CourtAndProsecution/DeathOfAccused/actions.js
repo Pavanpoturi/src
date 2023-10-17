@@ -1,0 +1,37 @@
+const actions = {
+  FETCH_DEATH_OF_ACCUSED_REQUEST: "FETCH_DEATH_OF_ACCUSED_REQUEST",
+  FETCH_DEATH_OF_ACCUSED_SUCCESS: "FETCH_DEATH_OF_ACCUSED_SUCCESS",
+  FETCH_DEATH_OF_ACCUSED_ERROR: "FETCH_DEATH_OF_ACCUSED_ERROR",
+
+  ADD_DEATH_OF_ACCUSED_REQUEST: "ADD_DEATH_OF_ACCUSED_REQUEST",
+  ADD_DEATH_OF_ACCUSED_SUCCESS: "ADD_DEATH_OF_ACCUSED_SUCCESS",
+  ADD_DEATH_OF_ACCUSED_ERROR: "ADD_DEATH_OF_ACCUSED_ERROR",
+
+  UPDATE_DEATH_OF_ACCUSED_REQUEST: "UPDATE_DEATH_OF_ACCUSED_REQUEST",
+  UPDATE_DEATH_OF_ACCUSED_SUCCESS: "UPDATE_DEATH_OF_ACCUSED_SUCCESS",
+  UPDATE_DEATH_OF_ACCUSED_ERROR: "UPDATE_DEATH_OF_ACCUSED_ERROR",
+
+  RESET_ACTIONTYPE: "RESET_ACTIONTYPE",
+
+  addDeathOfAccused: (url, body) => ({
+    type: actions.ADD_DEATH_OF_ACCUSED_REQUEST,
+    payload: { url, body },
+  }),
+
+  updateDeathOfAccused: (url, body) => ({
+    type: actions.UPDATE_DEATH_OF_ACCUSED_REQUEST,
+    payload: { url, body },
+  }),
+
+  getDeathOfAccusedList: (url) => ({
+    type: actions.FETCH_DEATH_OF_ACCUSED_REQUEST,
+    payload: { url },
+  }),
+
+  resetActionType: () => {
+    return {
+      type: actions.RESET_ACTIONTYPE,
+    };
+  },
+};
+export default actions;

@@ -1,0 +1,260 @@
+import Template50ACrPCNotice from "./Arrest/ArrestByPolice/Template50ACrPCNotice";
+import Template54CrPCNotice from "./Arrest/ArrestByPolice/Template54CrPCNotice";
+import Template50CrPCNotice from "./Arrest/ArrestByPolice/Template50CrPCNotice";
+import TemplatePotencyTest from "./CommonTemplates/TemplatePotencyTest";
+import TemplateArrestPotencyTest from "./CommonTemplates/TemplateArrestPotencyTest";
+import TemplateArrestMemo from "./Arrest/ArrestByPolice/TemplateArrestMemo";
+import TemplateArrestofAccusedIntimationtoLocalPolice from "./Arrest/ArrestByPolice/TemplateArrestofAccusedIntimationtoLocalPolice";
+import TemplatePTWarrant from "./Arrest/ArrestByOtherPolice/TemplatePTWarrant";
+import TemplateRequestToUnitOfficerToGoOutOfState from "./Arrest/ArrestByOtherPolice/TemplateRequestToUnitOfficerToGoOutOfState";
+import TemplatePTWarrantRegularization from "./Arrest/ArrestByOtherPolice/TemplatePTWarrantRegularization";
+import TemplateBailCancellationPetition from "./CommonTemplates/TemplateBailCancellationPetition";
+import TemplateArrestOnDirectSurrenderInPS from "./Arrest/ArrestOnDirectSurrenderInPS/TemplateArrestOnDirectSurrenderInPS";
+import TemplateHighCourtOrders from "./HighCourtOrders/TemplateHighCourtOrders";
+import TemplateRequestForNBW from "./Arrest/AccusedOutOfCountry/TemplateRequestForNBW";
+import TemplateRequestForLOCToSP from "./Arrest/AccusedOutOfCountry/TemplateRequestForLOCToSP";
+import TemplateSec41ACrPCNotice from "./CRPCNotice41A/TemplateSec41ACrPCNotice";
+import TemplateSec41ACrPCNoticeTelugu from "./CRPCNotice41A/TemplateSec41ACrPCNoticeTelugu";
+import TemplateAckByIoOnCompliance from "./CRPCNotice41A/TemplateAckByIoOnCompliance";
+import TemplateLetterToCourtForArrest from "./CRPCNotice41A/TemplateLetterToCourtForArrest";
+import TemplateConfessionReport from "./ConfessionalStatements/TemplateConfessionReport";
+import TemplatePoliceCustodyRequisition from "./PoliceCustody/TemplatePoliceCustodyRequisition";
+import Template54CrPCHospitalRequisition from "./PoliceCustody/Template54CrPCHospitalRequisition";
+import TemplateReproductionRequisition from "./PoliceCustody/TemplateReproductionRequisition";
+import TemplateRemandApplication from "./RemandReport/TemplateRemandApplication";
+import TemplateRemandReport from "./RemandReport/TemplateRemandReport";
+import TemplateExtensionReport from "./RemandExtension/TemplateExtensionReport";
+import Template164CrPcAccused from "./CRPCNotice164/Template164CrPcAccused";
+import Template164CrPcWitness from "./CRPCNotice164/Template164CrPcWitness";
+import TemplateIntimationToLocalPoliceOfficer from "./PTWarrant/TemplateIntimationToLocalPoliceOfficer";
+import TemplateOutOfStatePermission from "./PTWarrant/TemplateOutOfStatePermission";
+import TemplateRequestForTransitWarrant from "./PTWarrant/TemplateRequestForTransitWarrant";
+import TemplateXVIInformationToDistrictProbationary from "./ApprehensionReport/TemplateXVIInformationToDistrictProbationary";
+import TemplateXVOrderOfJJBChairman from "./ApprehensionReport/TemplateXVOrderOfJJBChairman";
+import TemplateLetterToDistrictProbationaryOfficerToProduceCCL from "./ApprehensionReport/TemplateLetterToDistrictProbationaryOfficerToProduceCCL";
+import TemplateAgeDeterminationRequisition from "./JuvenileApprehension/TemplateAgeDeterminationRequisition";
+import TemplateApprehensionMemo from "./JuvenileApprehension/TemplateApprehensionMemo";
+import TemplateNightCustodyRequisitionToObservationHome from "./JuvenileApprehension/TemplateNightCustodyRequisitionToObservationHome";
+import TemplateBailOppositionsRequisition from "./BailOppositions/TemplateBailOppositionsRequisition";
+import TemplateNotice160CrPC from "./CRPCNotice160/TemplateNotice160CrPC";
+import TemplateAdditionalMemo from "./AdditionalMemo/TemplateAdditionalMemo";
+import TemplateExhumationAtTheInstanceOfAccused from "./Exhumation/TemplateExhumationAtTheInstanceOfAccused";
+import TemplateExhumationOnCourtOrders from "./Exhumation/TemplateExhumationOnCourtOrders";
+import TemplateExhumationOfUnknownBody from "./Exhumation/TemplateExhumationOfUnknownBody";
+import TemplateExhumationOnComplaintOfRelativesOrLocals from "./Exhumation/TemplateExhumationOnComplaintOfRelativesOrLocals";
+import TemplateDisposalOfUnknownDeadBodies from "./Inquest/TemplateDisposalOfUnknownDeadBodies";
+import TemplateForwardingOfFPS from "./Inquest/TemplateForwardingOfFPS";
+import TemplateNotice175CrPCForPanchWitnesses from "./Inquest/TemplateNotice175CrPCForPanchWitnesses";
+import TemplateRequisitionForCollectionOfFingerPrints from "./Inquest/TemplateRequisitionForCollectionOfFingerPrints";
+import TemplateRequisitionForCollectionOfSkeletonBones from "./Inquest/TemplateRequisitionForCollectionOfSkeletonBones";
+import TemplateRequisitionForInquest from "./Inquest/TemplateRequisitionForInquest";
+import TemplateSeizureReport from "./StolenProperty/TemplateSeizureReport";
+import TemplateRequisitionForSpotPME from "./Inquest/TemplateRequisitionForSpotPME";
+import TemplateRequisitionToProidePanchWitnesses from "./Inquest/TemplateRequisitionToProidePanchWitnesses";
+import TemplateSubmissionOfInquestToCourt from "./Inquest/TemplateSubmissionOfInquestToCourt";
+import TemplateppOpinionform67 from "./Inquest/TemplateppOpinionform67";
+import GenerateRequisitionforCourt from "./Tip/GenerateRequisitionforCourt";
+import RequisitiontoCourt from "./Tip/RequisitiontoCourt";
+import GenerateRequisitionforArticles from "./Tip/GenerateRequisitionforArticles";
+import GenerateForm60 from "./CaseProperty/GenerateForm60";
+import GenerateLetterOfAdvice from "./CaseProperty/GenerateLetterOfAdvice";
+import GenerateReceipt from "./CaseProperty/GenerateReceipt";
+import Requisitions from "./CaseProperty/Requisitions";
+import TemplateReopeningOfClosedCase from "./ReopeningOfCase/TemplateReopeningOfClosedCase";
+import TemplateReopeningOfChargedCase from "./ReopeningOfCase/TemplateReopeningOfChargedCase";
+import Template65BEvidenceActCertificate from "./CollectionOfEvidenceReport/DigitalEvidence/Template65BEvidenceActCertificate";
+import TemplateCDRRequisitionFormatToDCP from "./CollectionOfEvidenceReport/DigitalEvidence/TemplateCDRRequisitionFormatToDCP";
+import TemplateCDRRequestDCPToServiceProvider from "./CollectionOfEvidenceReport/DigitalEvidence/TemplateCDRRequestDCPToServiceProvider";
+import TemplateCDRRequestIOToDCP from "./CollectionOfEvidenceReport/DigitalEvidence/TemplateCDRRequestIOToDCP";
+import TemplateCCTVFootage from "./CollectionOfEvidenceReport/DigitalEvidence/TemplateCCTVFootage";
+import TemplateLetterToCompanies from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToCompanies";
+import TemplateLetterToCoopHousingSociety from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToCoopHousingSociety";
+import TemplateLetterToCoopRegistrarHousingSociety from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToCoopRegistrarHousingSociety";
+import TemplateLetterToEducationalInstitutions from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToEducationalInstitutions";
+import TemplateLetterToEmployerOnGenuinessOfIncomeCertificateAndParticulars from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToEmployerOnGenuinessOfIncomeCertificateAndParticulars";
+import TemplateLetterToFinancialInstitution from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToFinancialInstitution";
+import TemplateLetterToGHMCOnApprovedPlan from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToGHMCOnApprovedPlan";
+import TemplateLetterToGHMCOnDateOfBirthCertificate from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToGHMCOnDateOfBirthCertificate";
+import TemplateLetterToGHMCOnTaxPaidAndHouseNo from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToGHMCOnTaxPaidAndHouseNo";
+import TemplateLetterToIncomeTaxDeptOnItReturns from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToIncomeTaxDeptOnItReturns";
+import TemplateLetterToRailwayRecruitmentBoard from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToRailwayRecruitmentBoard";
+import TemplateLetterToRegionalPassportOfficer from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToRegionalPassportOfficer";
+import TemplateLetterToRtaOnDrivingLicence from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToRtaOnDrivingLicence";
+import TemplateLetterToSCSTBCWelfareCorporation from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToSCSTBCWelfareCorporation";
+import TemplateLetterToSROForCertifiedCopies from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToSROForCertifiedCopies";
+import TemplateLetterToSurveyAndSettlement from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToSurveyAndSettlement";
+import TemplateLetterToTahsildarForClarificationOfLand from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToTahsildarForClarificationOfLand";
+import TemplateLetterToTahsildarForPahaniCopies from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToTahsildarForPahaniCopies";
+import TemplateLetterToTahsildarOnCasteCertificate from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToTahsildarOnCasteCertificate";
+import TemplateLetterToUnitOfficePassportSectionOnFakeVerification from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToUnitOfficePassportSectionOnFakeVerification";
+import TemplateLetterToVillageSecretary from "./CollectionOfEvidenceReport/DocumentaryEvidence/TemplateLetterToVillageSecretary";
+import TemplateCourtLetterForReturnOfFS from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceMainPageAndTemplates/LettersByCourt/TemplateCourtLetterForReturnOfFS";
+import TemplateCourtLetterToFSLSampleSignature from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceMainPageAndTemplates/LettersByCourt/TemplateCourtLetterToFSLSampleSignature";
+import TemplateCourtLetterToFSLVoiceRecordings from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceMainPageAndTemplates/LettersByCourt/TemplateCourtLetterToFSLVoiceRecordings";
+import TemplateLetterByCourtToFSLForD from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceMainPageAndTemplates/LettersByCourt/TemplateLetterByCourtToFSLForD";
+import TemplateLetterByCourtToSRO from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceMainPageAndTemplates/LettersByCourt/TemplateLetterByCourtToSRO";
+import TemplateLetterToCourtToCourtFor from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceMainPageAndTemplates/LettersByCourt/TemplateLetterToCourtToCourtFor";
+import TemplateReminderForFSLReport from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceMainPageAndTemplates/LettersByCourt/TemplateReminderForFSLReport";
+import TemplateLetterForCollectingVoice from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceMainPageAndTemplates/LettersByIOToCourt/TemplateLetterForCollectingVoice";
+import TemplateLetterForForwardingPhoneAn from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceMainPageAndTemplates/LettersByIOToCourt/TemplateLetterForForwardingPhoneAn";
+import TemplateLetterOfAdvice from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceMainPageAndTemplates/LettersByIOToCourt/TemplateLetterOfAdvice";
+import TemplateLetterToCourtForDnaCollec from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceMainPageAndTemplates/LettersByIOToCourt/TemplateLetterToCourtForDnaCollec";
+import TemplateLetterToCourtForObtaining from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceMainPageAndTemplates/LettersByIOToCourt/TemplateLetterToCourtForObtaining";
+import TemplateLetterToCourtForRegisters from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceMainPageAndTemplates/LettersByIOToCourt/TemplateLetterToCourtForRegisters";
+import TemplateLetterToCourtWithLetterOf from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceMainPageAndTemplates/LettersByIOToCourt/TemplateLetterToCourtWithLetterOf";
+import TemplateLetterToTakingSampleSignat from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceMainPageAndTemplates/LettersByIOToCourt/TemplateLetterToTakingSampleSignat";
+import TemplateLetterForPMEClarification from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceThroughACP/TemplateLetterForPMEClarification";
+import TemplateLetterToExperts from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceThroughACP/TemplateLetterToExperts";
+import TemplateLetterToLadyMedicalOfficerFinalOpinion from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceThroughACP/TemplateLetterToLadyMedicalOfficerFinalOpinion";
+import TemplateMedicoLegalRequisition from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceThroughACP/TemplateMedicoLegalRequisition";
+import TemplateDnaAccusedThroughACP from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceThroughCourt/TemplateDnaAccusedThroughACP";
+import TemplateDnaBabyThroughACP from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceThroughCourt/TemplateDnaBabyThroughACP";
+import TemplateDnaVictimThroughACP from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceThroughCourt/TemplateDnaVictimThroughACP";
+import TemplateLetterOfadvice from "./CollectionOfEvidenceReport/ScientificEvidence/WorkFlowOfScientificEvidenceThroughCourt/TemplateLetterOfadvice";
+import TemplateReassignmentOfCase from "./ReassignmentOfCase/TemplateReassignmentOfCase";
+import TemplateIntimationToCourtTransferOfCaseFile from "./transferOfCase/TemplateIntimationToCourtTransferOfCaseFile";
+import TemplateLetterToUnitOfficerForTransferOfCaseFile from "./transferOfCase/TemplateLetterToUnitOfficerForTransferOfCaseFile";
+import TemplateCPLetterSendingCDFileToOthers from "./transferOfCase/TemplateCPLetterSendingCDFileToOthers";
+import TemplateSectionAlterMemo from "./AlterationMemo/TemplateSectionAlterMemo";
+import TemplateTransferOfOriginalRecord from "./AlterationMemo/TemplateTransferOfOriginalRecord";
+import TemplateNoticetoComplainantonDeletion from "./NoticetoComplainant/TemplateNoticetoComplainantonDeletion";
+import TemplateNoticetoComplainantonFR from "./NoticetoComplainant/TemplateNoticetoComplainantonFR";
+import TemplateAcknowledgement from "./Form54/TemplateAcknowledgement";
+import TemplateRoadAccidentInsurance from "./Form54/TemplateRoadAccidentInsurance";
+import TemplateDetailedAccidentReport from "./Form54/TemplateDetailedAccidentReport";
+import ACPLetterToFSL from "./CaseProperty/ACPLetterToFSL";
+import CourtLetterToFSL from "./CaseProperty/CourtLetterToFSL";
+import LetterToACP from "./CaseProperty/LetterToACP";
+import LetterToExpert from "./CaseProperty/LetterToExpert";
+import TemplateCPLetterSendingCDPolice from "./transferOfCase/CPLetterSendingCDPolice";
+export {
+  Template50ACrPCNotice,
+  Template54CrPCNotice,
+  Template50CrPCNotice,
+  TemplatePotencyTest,
+  TemplateArrestPotencyTest,
+  TemplateArrestMemo,
+  TemplateArrestofAccusedIntimationtoLocalPolice,
+  TemplatePTWarrant,
+  TemplateRequestToUnitOfficerToGoOutOfState,
+  TemplatePTWarrantRegularization,
+  TemplateBailCancellationPetition,
+  TemplateArrestOnDirectSurrenderInPS,
+  TemplateHighCourtOrders,
+  TemplateRequestForNBW,
+  TemplateRequestForLOCToSP,
+  TemplateSec41ACrPCNotice,
+  TemplateSec41ACrPCNoticeTelugu,
+  TemplateAckByIoOnCompliance,
+  TemplateLetterToCourtForArrest,
+  TemplateConfessionReport,
+  TemplatePoliceCustodyRequisition,
+  Template54CrPCHospitalRequisition,
+  TemplateReproductionRequisition,
+  TemplateRemandApplication,
+  TemplateRemandReport,
+  TemplateExtensionReport,
+  Template164CrPcAccused,
+  Template164CrPcWitness,
+  TemplateIntimationToLocalPoliceOfficer,
+  TemplateOutOfStatePermission,
+  TemplateRequestForTransitWarrant,
+  TemplateXVIInformationToDistrictProbationary,
+  TemplateXVOrderOfJJBChairman,
+  TemplateLetterToDistrictProbationaryOfficerToProduceCCL,
+  TemplateAgeDeterminationRequisition,
+  TemplateApprehensionMemo,
+  TemplateNightCustodyRequisitionToObservationHome,
+  TemplateBailOppositionsRequisition,
+  TemplateNotice160CrPC,
+  TemplateAdditionalMemo,
+  TemplateExhumationAtTheInstanceOfAccused,
+  TemplateExhumationOnCourtOrders,
+  TemplateExhumationOfUnknownBody,
+  TemplateExhumationOnComplaintOfRelativesOrLocals,
+  TemplateDisposalOfUnknownDeadBodies,
+  TemplateForwardingOfFPS,
+  TemplateNotice175CrPCForPanchWitnesses,
+  TemplateRequisitionForCollectionOfFingerPrints,
+  TemplateRequisitionForCollectionOfSkeletonBones,
+  TemplateRequisitionForInquest,
+  TemplateSeizureReport,
+  TemplateRequisitionForSpotPME,
+  GenerateRequisitionforCourt,
+  RequisitiontoCourt,
+  GenerateRequisitionforArticles,
+  Requisitions,
+  GenerateReceipt,
+  GenerateLetterOfAdvice,
+  GenerateForm60,
+  TemplateRequisitionToProidePanchWitnesses,
+  TemplateSubmissionOfInquestToCourt,
+  Template65BEvidenceActCertificate,
+  TemplateCCTVFootage,
+  TemplateCDRRequestDCPToServiceProvider,
+  TemplateCDRRequestIOToDCP,
+  TemplateCDRRequisitionFormatToDCP,
+  TemplateLetterToCompanies,
+  TemplateLetterToCoopHousingSociety,
+  TemplateLetterToCoopRegistrarHousingSociety,
+  TemplateLetterToEducationalInstitutions,
+  TemplateLetterToEmployerOnGenuinessOfIncomeCertificateAndParticulars,
+  TemplateLetterToFinancialInstitution,
+  TemplateLetterToGHMCOnApprovedPlan,
+  TemplateLetterToGHMCOnDateOfBirthCertificate,
+  TemplateLetterToGHMCOnTaxPaidAndHouseNo,
+  TemplateLetterToIncomeTaxDeptOnItReturns,
+  TemplateLetterToRailwayRecruitmentBoard,
+  TemplateLetterToRegionalPassportOfficer,
+  TemplateLetterToRtaOnDrivingLicence,
+  TemplateLetterToSCSTBCWelfareCorporation,
+  TemplateLetterToSROForCertifiedCopies,
+  TemplateLetterToSurveyAndSettlement,
+  TemplateLetterToTahsildarForClarificationOfLand,
+  TemplateLetterToTahsildarForPahaniCopies,
+  TemplateLetterToTahsildarOnCasteCertificate,
+  TemplateLetterToUnitOfficePassportSectionOnFakeVerification,
+  TemplateLetterToVillageSecretary,
+  TemplateCourtLetterForReturnOfFS,
+  TemplateCourtLetterToFSLSampleSignature,
+  TemplateCourtLetterToFSLVoiceRecordings,
+  TemplateLetterByCourtToFSLForD,
+  TemplateLetterByCourtToSRO,
+  TemplateLetterToCourtToCourtFor,
+  TemplateReminderForFSLReport,
+  TemplateLetterForCollectingVoice,
+  TemplateLetterForForwardingPhoneAn,
+  TemplateLetterOfAdvice,
+  TemplateLetterToCourtForDnaCollec,
+  TemplateLetterToCourtForObtaining,
+  TemplateLetterToCourtForRegisters,
+  TemplateLetterToCourtWithLetterOf,
+  TemplateLetterToTakingSampleSignat,
+  TemplateLetterForPMEClarification,
+  TemplateLetterToExperts,
+  TemplateLetterToLadyMedicalOfficerFinalOpinion,
+  TemplateMedicoLegalRequisition,
+  TemplateDnaAccusedThroughACP,
+  TemplateDnaBabyThroughACP,
+  TemplateDnaVictimThroughACP,
+  TemplateLetterOfadvice,
+  TemplateReopeningOfClosedCase,
+  TemplateReopeningOfChargedCase,
+  TemplateIntimationToCourtTransferOfCaseFile,
+  TemplateLetterToUnitOfficerForTransferOfCaseFile,
+  TemplateSectionAlterMemo,
+  TemplateTransferOfOriginalRecord,
+  TemplateReassignmentOfCase,
+  TemplateppOpinionform67,
+  TemplateNoticetoComplainantonDeletion,
+  TemplateNoticetoComplainantonFR,
+  TemplateAcknowledgement,
+  TemplateRoadAccidentInsurance,
+  TemplateDetailedAccidentReport,
+  ACPLetterToFSL,
+  CourtLetterToFSL,
+  LetterToACP,
+  LetterToExpert,
+  TemplateCPLetterSendingCDPolice,
+  TemplateCPLetterSendingCDFileToOthers,
+};

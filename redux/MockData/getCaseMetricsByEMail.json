@@ -1,0 +1,29 @@
+{
+   "data": [
+      {
+         "caseStatus": "UI Cases",
+         "caseCount": 4
+      },
+      {
+         "caseStatus": "PT Cases",
+         "caseCount": 4
+      },
+      {
+         "caseStatus": "Disposed",
+         "caseCount": 4
+      },
+      {
+         "caseStatus": "New",
+         "caseCount": 3
+      },
+      {
+         "caseStatus": "Pending Refs",
+         "caseCount": 8
+      },
+      {
+         "caseStatus": "Pending Approvals",
+         "caseCount": 5
+      }
+   ],
+   "status": true
+}

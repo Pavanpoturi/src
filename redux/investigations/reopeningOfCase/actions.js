@@ -1,0 +1,37 @@
+const actions = {
+  FETCH_REOPENING_OF_CASE_REQUEST: "FETCH_REOPENING_OF_CASE_REQUEST",
+  FETCH_REOPENING_OF_CASE_SUCCESS: "FETCH_REOPENING_OF_CASE_SUCCESS",
+  FETCH_REOPENING_OF_CASE_ERROR: "FETCH_REOPENING_OF_CASE_ERROR",
+
+  ADD_REOPENING_OF_CASE_REQUEST: "ADD_REOPENING_OF_CASE_REQUEST",
+  ADD_REOPENING_OF_CASE_SUCCESS: "ADD_REOPENING_OF_CASE_SUCCESS",
+  ADD_REOPENING_OF_CASE_ERROR: "ADD_REOPENING_OF_CASE_ERROR",
+
+  UPDATE_REOPENING_OF_CASE_REQUEST: "UPDATE_REOPENING_OF_CASE_REQUEST",
+  UPDATE_REOPENING_OF_CASE_SUCCESS: "UPDATE_REOPENING_OF_CASE_SUCCESS",
+  UPDATE_REOPENING_OF_CASE_ERROR: "UPDATE_REOPENING_OF_CASE_ERROR",
+
+  RESET_ACTIONTYPE: "RESET_ACTIONTYPE",
+
+  addReopeningOfCaseDetails: (url, body) => ({
+    type: actions.ADD_REOPENING_OF_CASE_REQUEST,
+    payload: { url, body },
+  }),
+
+  updateReopeningOfCaseDetails: (url, body) => ({
+    type: actions.UPDATE_REOPENING_OF_CASE_REQUEST,
+    payload: { url, body },
+  }),
+
+  getReopeningOfCaseList: (url) => ({
+    type: actions.FETCH_REOPENING_OF_CASE_REQUEST,
+    payload: { url },
+  }),
+
+  resetActionType: () => {
+    return {
+      type: actions.RESET_ACTIONTYPE,
+    };
+  },
+};
+export default actions;

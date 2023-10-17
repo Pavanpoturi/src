@@ -1,0 +1,37 @@
+const actions = {
+  FETCH_NOTICE_TO_SURETY_REQUEST: "FETCH_NOTICE_TO_SURETY_REQUEST",
+  FETCH_NOTICE_TO_SURETY_SUCCESS: "FETCH_NOTICE_TO_SURETY_SUCCESS",
+  FETCH_NOTICE_TO_SURETY_ERROR: "FETCH_NOTICE_TO_SURETY_ERROR",
+
+  ADD_NOTICE_TO_SURETY_REQUEST: "ADD_NOTICE_TO_SURETY_REQUEST",
+  ADD_NOTICE_TO_SURETY_SUCCESS: "ADD_NOTICE_TO_SURETY_SUCCESS",
+  ADD_NOTICE_TO_SURETY_ERROR: "ADD_NOTICE_TO_SURETY_ERROR",
+
+  UPDATE_NOTICE_TO_SURETY_REQUEST: "UPDATE_NOTICE_TO_SURETY_REQUEST",
+  UPDATE_NOTICE_TO_SURETY_SUCCESS: "UPDATE_NOTICE_TO_SURETY_SUCCESS",
+  UPDATE_NOTICE_TO_SURETY_ERROR: "UPDATE_NOTICE_TO_SURETY_ERROR",
+
+  RESET_ACTIONTYPE: "RESET_ACTIONTYPE",
+
+  addNoticeToSurety: (url, body) => ({
+    type: actions.ADD_NOTICE_TO_SURETY_REQUEST,
+    payload: { url, body },
+  }),
+
+  updateNoticeToSurety: (url, body) => ({
+    type: actions.UPDATE_NOTICE_TO_SURETY_REQUEST,
+    payload: { url, body },
+  }),
+
+  getNoticeToSuretyList: (url) => ({
+    type: actions.FETCH_NOTICE_TO_SURETY_REQUEST,
+    payload: { url },
+  }),
+
+  resetActionType: () => {
+    return {
+      type: actions.RESET_ACTIONTYPE,
+    };
+  },
+};
+export default actions;

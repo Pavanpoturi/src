@@ -1,0 +1,37 @@
+const actions = {
+  FETCH_TIPARTICLES_REQUEST: "FETCH_TIPARTICLES_REQUEST",
+  FETCH_TIPARTICLES_SUCCESS: "FETCH_TIPARTICLES_SUCCESS",
+  FETCH_TIPARTICLES_ERROR: "FETCH_TIPARTICLES_ERROR",
+
+  ADD_TIPARTICLES_REQUEST: "ADD_TIPARTICLES_REQUEST",
+  ADD_TIPARTICLES_SUCCESS: "ADD_TIPARTICLES_SUCCESS",
+  ADD_TIPARTICLES_ERROR: "ADD_TIPARTICLES_ERROR",
+
+  UPDATE_TIPARTICLES_REQUEST: "UPDATE_TIPARTICLES_REQUEST",
+  UPDATE_TIPARTICLES_SUCCESS: "UPDATE_TIPARTICLES_SUCCESS",
+  UPDATE_TIPARTICLES_ERROR: "UPDATE_TIPARTICLES_ERROR",
+
+  RESET_ACTIONTYPE: "RESET_ACTIONTYPE",
+
+  addTIPArticlesDetails: (url, body) => ({
+    type: actions.ADD_TIPARTICLES_REQUEST,
+    payload: { url, body },
+  }),
+
+  updateTIPArticlesDetails: (url, body) => ({
+    type: actions.UPDATE_TIPARTICLES_REQUEST,
+    payload: { url, body },
+  }),
+
+  getTIPArticlesList: (url) => ({
+    type: actions.FETCH_TIPARTICLES_REQUEST,
+    payload: { url },
+  }),
+
+  resetActionType: () => {
+    return {
+      type: actions.RESET_ACTIONTYPE,
+    };
+  },
+};
+export default actions;

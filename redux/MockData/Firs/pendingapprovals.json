@@ -1,0 +1,140 @@
+{
+  "status": true,
+  "data": [
+    {
+      "wrk_by": [
+        {
+          "staff_id": "60fbdab8595dca4852d02dce",
+          "role_id": "60fbdb5a595dca4852d02dd0"
+        }
+      ],
+      "_id": "60fbd9dc595dca4852d02dc9",
+      "firDetail": {
+        "firNum": "241/2020",
+        "section": "IPC 43-338",
+        "district": "Ranga Reddy",
+        "fir_date": "2021-02-02T18:30:00.000Z",
+        "occurrence_date": "2021-01-02T18:30:00.000Z",
+        "crime_classification": "Bodily Offence",
+        "dayssincelastupdate": 179,
+        "targetdaysleft": 179
+      },
+      "pre_crime": {
+        "complete": false,
+        "officer": ["60fbdab8595dca4852d02dce", "60fbdb5a595dca4852d02dd0"]
+      },
+      "post_crime": { "complete": false },
+      "last_update_date": "2021-02-02T18:30:00.000Z",
+      "caseStatus": "Pending Approvals",
+      "staff_id": "60fae65579cceda4cebe87e9"
+    },
+    {
+      "wrk_by": [
+        {
+          "staff_id": "60fbdab8595dca4852d02dce",
+          "role_id": "60fbdb5a595dca4852d02dd0"
+        }
+      ],
+      "_id": "60fbd9e5595dca4852d02dca",
+      "firDetail": {
+        "firNum": "242/2020",
+        "section": "IPC 43-338",
+        "district": "Ranga Reddy",
+        "fir_date": "2021-02-02T18:30:00.000Z",
+        "occurrence_date": "2021-01-02T18:30:00.000Z",
+        "crime_classification": "Bodily Offence",
+        "dayssincelastupdate": 179,
+        "targetdaysleft": 179
+      },
+      "pre_crime": {
+        "complete": false,
+        "officer": ["60fbdab8595dca4852d02dce", "60fbdb5a595dca4852d02dd0"]
+      },
+      "post_crime": { "complete": false },
+      "last_update_date": "2021-02-02T18:30:00.000Z",
+      "caseStatus": "Pending Approvals",
+      "staff_id": "60fae65579cceda4cebe87e9"
+    },
+    {
+      "wrk_by": [
+        {
+          "staff_id": "60fbdab8595dca4852d02dce",
+          "role_id": "60fbdb5a595dca4852d02dd0"
+        }
+      ],
+      "_id": "60fbd9ee595dca4852d02dcb",
+      "firDetail": {
+        "firNum": "243/2020",
+        "section": "IPC 43-338",
+        "district": "Ranga Reddy",
+        "fir_date": "2021-02-02T18:30:00.000Z",
+        "occurrence_date": "2021-01-02T18:30:00.000Z",
+        "crime_classification": "Bodily Offence",
+        "dayssincelastupdate": 179,
+        "targetdaysleft": 179
+      },
+      "pre_crime": {
+        "complete": false,
+        "officer": ["60fbdab8595dca4852d02dce", "60fbdb5a595dca4852d02dd0"]
+      },
+      "post_crime": { "complete": false },
+      "last_update_date": "2021-02-02T18:30:00.000Z",
+      "caseStatus": "Pending Approvals",
+      "staff_id": "60fae65579cceda4cebe87e9"
+    },
+    {
+      "wrk_by": [
+        {
+          "staff_id": "60fbdab8595dca4852d02dce",
+          "role_id": "60fbdb5a595dca4852d02dd0"
+        }
+      ],
+      "_id": "60fbd9f8595dca4852d02dcc",
+      "firDetail": {
+        "firNum": "244/2020",
+        "section": "IPC 43-338",
+        "district": "Ranga Reddy",
+        "fir_date": "2021-02-02T18:30:00.000Z",
+        "occurrence_date": "2021-01-02T18:30:00.000Z",
+        "crime_classification": "Bodily Offence",
+        "dayssincelastupdate": 179,
+        "targetdaysleft": 179
+      },
+      "pre_crime": {
+        "complete": false,
+        "officer": ["60fbdab8595dca4852d02dce", "60fbdb5a595dca4852d02dd0"]
+      },
+      "post_crime": { "complete": false },
+      "last_update_date": "2021-02-02T18:30:00.000Z",
+      "caseStatus": "Pending Approvals",
+      "staff_id": "60fae65579cceda4cebe87e9"
+    },
+    {
+      "wrk_by": [
+        {
+          "staff_id": "60fbdab8595dca4852d02dce",
+          "role_id": "60fbdb5a595dca4852d02dd0"
+        }
+      ],
+      "_id": "60fbda03595dca4852d02dcd",
+      "firDetail": {
+        "firNum": "245/2020",
+        "section": "IPC 43-338",
+        "district": "Ranga Reddy",
+        "fir_date": "2021-02-02T18:30:00.000Z",
+        "occurrence_date": "2021-01-02T18:30:00.000Z",
+        "crime_classification": "Bodily Offence",
+        "dayssincelastupdate": 179,
+        "targetdaysleft": 179
+      },
+      "pre_crime": {
+        "complete": false,
+        "officer": ["60fbdab8595dca4852d02dce", "60fbdb5a595dca4852d02dd0"]
+      },
+      "post_crime": { "complete": false },
+      "last_update_date": "2021-02-02T18:30:00.000Z",
+      "caseStatus": "Pending Approvals",
+      "staff_id": "60fae65579cceda4cebe87e9"
+    }
+  ]
+}
